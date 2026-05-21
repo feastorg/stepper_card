@@ -5724,12 +5724,12 @@
 		(uuid "cfe6587b-867c-48d7-80b9-8e629ca48f89")
 	)
 	(label "STEP"
-		(at 113.03 46.99 0)
+		(at 57.15 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d0213833-ae23-4db6-a84a-3425888fcd7f")
 	)
@@ -5784,12 +5784,12 @@
 		(uuid "ebf104ae-a969-4a20-9dab-bbb5f4e746de")
 	)
 	(label "DIR"
-		(at 113.03 49.53 0)
+		(at 57.15 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ebf13606-9a88-4c3a-9c80-3fc2c67a9909")
 	)
