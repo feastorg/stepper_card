@@ -1,0 +1,19 @@
+name: Validate Manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "grain.yaml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "grain.yaml"
+  workflow_dispatch:
+
+jobs:
+  validate-manifest:
+    uses: feastorg/bread-infra/.github/workflows/validate-manifest.yml@schema-grain-v1.0
+    with:
+      manifest_path: "grain.yaml"
+      schema_ref: "schema-grain-v1.0"
