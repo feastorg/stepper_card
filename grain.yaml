@@ -12,9 +12,8 @@ version:
   hardware: null
 
 # ── Licensing ─────────────────────────────────────────────────────────────────
-# TODO: no LICENSE file in repo yet — add one and update this field
 license:
-  hardware: "CERN-OHL-S-2.0"
+  hardware: "GPL-3.0-only"
   firmware: null
   documentation: null
 
