@@ -1,0 +1,43 @@
+grain_schema_version: "1.0"
+
+# ── Identity ──────────────────────────────────────────────────────────────────
+id: "stepper-card"
+name: "Stepper Card"
+status: "prototype"
+category: "card"
+summary: "PCIe-edge stepper motor driver card designed to plug into Slice_STPC."
+
+# ── Versioning ────────────────────────────────────────────────────────────────
+version:
+  hardware: null
+
+# ── Licensing ─────────────────────────────────────────────────────────────────
+# TODO: no LICENSE file in repo yet — add one and update this field
+license:
+  hardware: "CERN-OHL-S-2.0"
+  firmware: null
+  documentation: null
+
+# ── Repository ────────────────────────────────────────────────────────────────
+repository:
+  url: "https://github.com/feastorg/stepper_card"
+
+# ── Compatibility ─────────────────────────────────────────────────────────────
+compatibility:
+  - "Slice_STPC"
+
+related_slices:
+  - "Slice_STPC"
+
+# ── Hardware ──────────────────────────────────────────────────────────────────
+hardware:
+  form_factor: "pcie-edge"
+  pcb_layers: null
+
+# ── Firmware ──────────────────────────────────────────────────────────────────
+firmware: null
+
+# ── Metadata ──────────────────────────────────────────────────────────────────
+metadata:
+  tags: ["stepper", "motor", "card", "driver", "pcie-edge"]
+  updated: "2026-06-12"
